@@ -32,7 +32,7 @@ class App extends Component {
               <header>
                   <h1>Todo List</h1>
 
-                  <form className="new-task" onsubmit={this.handleSubmit.bind(this)}>
+                  <form className="new-task" onSubmit={this.handleSubmit.bind(this)}>
                       <input
                           type="text"
                           ref="textInput"
